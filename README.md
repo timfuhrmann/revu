@@ -2,6 +2,8 @@ In progress: a real-life web application for live streamers (Twitch, YouTube, et
 
 Check out the current state: https://www.revulab.app/
 
+![Preview](public/app-demo.png)
+
 ```bash
 # Demo Account
 E-Mail: demo@revulab.app
