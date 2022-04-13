@@ -1,4 +1,4 @@
-In progress: a real-life web application for live streamers (Twitch, YouTube, etc.) to organize their moderators to review video reactions to prevent strikes and a potential bans. 
+A fun little application for live streamers (Twitch, YouTube, etc.) to organize their moderators to review video reactions to prevent strikes and a potential ban.
 
 Check out the current state: https://www.revulab.app/
 
