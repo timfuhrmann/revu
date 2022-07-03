@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { COOKIE_SESSION } from "../../../app/lib/api/cookie";
-import { UNAUTHORIZED } from "../../../app/lib/config/errors";
+import { UNAUTHORIZED } from "../../../app/lib/error";
 import { auth } from "../../../app/lib/firebase/admin";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {

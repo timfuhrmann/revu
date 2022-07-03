@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { ButtonText } from "../../css/typography";
 import { statusMap } from "../../lib/util";
 import { DragIndicator } from "../../icon/Sliders";
-import { useDrag } from "../../lib/drag";
+import { useDrag } from "../../lib/hook/useDrag";
 
 const FilterWrapper = styled.div``;
 

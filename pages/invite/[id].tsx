@@ -4,7 +4,7 @@ import { Content } from "../../app/css/content";
 import { FlowText, H2 } from "../../app/css/typography";
 import { Button } from "../../app/layout/atom/Button";
 import { useData } from "../../app/context/data/DataContext";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 
 const PageWrapper = styled.div`

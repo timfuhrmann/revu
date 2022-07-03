@@ -5,9 +5,9 @@ import { H2 } from "../../app/css/typography";
 import { ContactData, SettingsContact } from "../../app/layout/molecule/SettingsContact";
 import { createSupportTicket } from "../../app/lib/api/create";
 import { useSession } from "../../app/context/user/SessionContext";
-import { CONTACT_ERROR, errors, NO_USER } from "../../app/lib/config/errors";
+import { CONTACT_ERROR, errors, NO_USER } from "../../app/lib/error";
 import { useRouter } from "next/router";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 
 const PageWrapper = styled.div`

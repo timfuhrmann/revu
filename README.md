@@ -1,6 +1,6 @@
-A fun little application for live streamers (Twitch, YouTube, etc.) to organize their moderators to review video reactions to prevent strikes and a potential ban.
+A fun little application for live streamers to organize their moderators to review video reactions to prevent terms of service violations.
 
-Check out the current state: https://www.revulab.app/
+https://www.revulab.app/
 
 ```bash
 # Demo Account

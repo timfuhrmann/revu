@@ -3,7 +3,7 @@ import { Button } from "../atom/Button";
 import styled from "styled-components";
 import { Google } from "../../icon/Google";
 import { Twitch } from "../../icon/Twitch";
-import { errors, UNKNOWN_ERROR } from "../../lib/config/errors";
+import { errors, UNKNOWN_ERROR } from "../../lib/error";
 import { useSession } from "../../context/user/SessionContext";
 
 const ButtonsWrapper = styled.div``;

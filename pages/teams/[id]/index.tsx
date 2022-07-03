@@ -9,9 +9,9 @@ import { Gear } from "../../../app/icon/Gear";
 import { StickyHead } from "../../../app/layout/atom/StickyHead";
 import { Filter } from "../../../app/icon/Filter";
 import { ReviewsFilter } from "../../../app/layout/molecule/ReviewsFilter";
-import { useFilter } from "../../../app/lib/filter";
+import { useFilter } from "../../../app/lib/hook/useFilter";
 import { Close } from "../../../app/icon/Close";
-import { Meta } from "../../../app/lib/Meta";
+import { Meta } from "../../../app/lib/meta";
 import { LoginModal } from "../../../app/layout/organism/LoginModal";
 
 const PageWrapper = styled.div`

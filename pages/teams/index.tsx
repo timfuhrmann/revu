@@ -8,7 +8,7 @@ import { TeamOverview } from "../../app/layout/organism/TeamOverview";
 import { StickyHead } from "../../app/layout/atom/StickyHead";
 import { useData } from "../../app/context/data/DataContext";
 import { useTeamsSearch } from "../../app/lib/search";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { useSession } from "../../app/context/user/SessionContext";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 

@@ -4,7 +4,7 @@ import { Content } from "../../app/css/content";
 import { H3 } from "../../app/css/typography";
 import { SettingsAlert } from "../../app/layout/organism/SettingsAlert";
 import { useSession } from "../../app/context/user/SessionContext";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 import { deleteAccount } from "../../app/lib/api/delete";
 import { useRouter } from "next/router";

@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
 
 interface MetaProps {
     title?: string;
@@ -14,31 +13,12 @@ const fallbackDesc =
 export const Meta: React.FC<MetaProps> = ({ title, desc }) => {
     const pageTitle = title || fallbackTitle;
     const pageDesc = desc || fallbackDesc;
-    // const metaImage = image
-    //     ? image
-    //     : process.env.NEXT_PUBLIC_APP_URL + "/meta-preview.jpg";
 
     return (
         <Head>
             <title>{pageTitle}</title>
             <meta name="title" content={pageTitle} />
             <meta name="description" content={pageDesc} />
-            {/*<meta name="google-site-verification" content="" />*/}
-
-            {/*<meta property="og:type" content="website" />*/}
-            {/*<meta property="og:url" content={process.env.NEXT_PUBLIC_BASE_URL + router.asPath} />*/}
-            {/*<meta property="og:title" content={title} />*/}
-            {/*<meta property="og:description" content={desc} />*/}
-            {/*<meta property="og:image" content={metaImage} />*/}
-
-            {/*<meta property="twitter:card" content="summary_large_image" />*/}
-            {/*<meta*/}
-            {/*    property="twitter:url"*/}
-            {/*    content={process.env.NEXT_PUBLIC_BASE_URL + router.asPath}*/}
-            {/*/>*/}
-            {/*<meta property="twitter:title" content={title} />*/}
-            {/*<meta property="twitter:description" content={desc} />*/}
-            {/*<meta property="twitter:image" content={metaImage} />*/}
 
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />

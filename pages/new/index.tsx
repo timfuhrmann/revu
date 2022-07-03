@@ -6,7 +6,7 @@ import { InputButton } from "../../app/layout/molecule/InputButton";
 import { useSession } from "../../app/context/user/SessionContext";
 import { useRouter } from "next/router";
 import { createTeam } from "../../app/lib/api/create";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 
 const PageWrapper = styled.div`

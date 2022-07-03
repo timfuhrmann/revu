@@ -6,7 +6,7 @@ import { CredentialsForm } from "../../app/layout/organism/CredentialsForm";
 import { Input } from "../../app/layout/atom/Input";
 import { getSession } from "../../app/lib/api";
 import { useSession } from "../../app/context/user/SessionContext";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { PasswordModal } from "../../app/layout/molecule/PasswordModal";
 import { useRouter } from "next/router";
 import { LoginData, LoginForm } from "../../app/layout/organism/LoginForm";

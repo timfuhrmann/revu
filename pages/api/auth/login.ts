@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { MISSING_PARAMETER, UNAUTHORIZED } from "../../../app/lib/config/errors";
+import { MISSING_PARAMETER, UNAUTHORIZED } from "../../../app/lib/error";
 import { auth } from "../../../app/lib/firebase/admin";
 import { COOKIE_SESSION, setCookie } from "../../../app/lib/api/cookie";
 

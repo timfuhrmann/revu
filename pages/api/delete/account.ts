@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { auth, db } from "../../../app/lib/firebase/admin";
 import { COOKIE_SESSION, destroyCookie } from "../../../app/lib/api/cookie";
-import { UNAUTHORIZED } from "../../../app/lib/config/errors";
+import { UNAUTHORIZED } from "../../../app/lib/error";
 import { removeFromObjectByKey } from "../../../app/lib/util";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {

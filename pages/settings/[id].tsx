@@ -6,7 +6,7 @@ import { SettingsInput } from "../../app/layout/molecule/SettingsInput";
 import { useData } from "../../app/context/data/DataContext";
 import { SettingsMembers } from "../../app/layout/organism/SettingsMembers";
 import { SettingsAlert } from "../../app/layout/organism/SettingsAlert";
-import { Meta } from "../../app/lib/Meta";
+import { Meta } from "../../app/lib/meta";
 import { LoginModal } from "../../app/layout/organism/LoginModal";
 
 const PageWrapper = styled.div`

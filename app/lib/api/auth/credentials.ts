@@ -1,5 +1,5 @@
 import { auth, db } from "../../firebase";
-import { errors, UNKNOWN_ERROR } from "../../config/errors";
+import { errors, UNKNOWN_ERROR } from "../../error";
 import { sessionLogin } from "../index";
 
 export const signInWithEmailAndPassword = async (

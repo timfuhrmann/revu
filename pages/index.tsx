@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { GetServerSideProps } from "next";
 import { Opener } from "../app/layout/molecule/Opener";
 import { getSession } from "../app/lib/api";
-import { Meta } from "../app/lib/Meta";
+import { Meta } from "../app/lib/meta";
 import { BlockStory } from "../app/layout/atom/BlockStory";
 
 const HomeWrapper = styled.div``;

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { statusMap } from "./util";
+import { statusMap } from "../util";
 
 const STORAGE_FILTER_STATE = "filter-state";
 
