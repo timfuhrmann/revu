@@ -1,6 +1,5 @@
 A fun little application for live streamers to organize their moderators to review video reactions to prevent terms of service violations.
 
-https://www.revulab.app/
 
 ```bash
 # Demo Account
